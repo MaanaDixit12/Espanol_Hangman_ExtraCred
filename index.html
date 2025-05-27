@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>español hangman</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="game-modal">
+    <div class="content">
+      <img src="lost.gif" alt="gif" />
+      <h4>¡Perdiste!</h4>
+      <p>The correct word was: <b></b></p>
+      <button class="play-again">Play Again</button>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="top-section">
+      <div class="hangman-box">
+        <img src="hangman-0.svg" alt="hangman-img" />
+        <h1>Spanish High Frequency Verbs</h1>
+      </div>
+      <div class="word-section">
+        <ul class="word-display"></ul>
+        <h4 class="hint-text">Hint: <b></b></h4>
+        <h4 class="guess-text">Incorrect guesses: <b>0 / 6</b></h4>
+      </div>
+    </div>
+    <div class="keyboard"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
